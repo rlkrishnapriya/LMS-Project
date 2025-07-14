@@ -55,12 +55,12 @@ public class Main {
         
         system.borrowItem("U001", "Wings of Fire");
         system.borrowItem("U002", "National Geographic");
-        system.borrowItem("U003", "Interstellar"); // Replaced "Inception" with a valid DVD
+        system.borrowItem("U003", "Interstellar"); 
 
 
         system.searchByTitle("geo");
         system.showReport();
 
-        system.returnItem("U001", "Wings of Fire", 2); // 2 days late
+        system.returnItem("U001", "Wings of Fire", 2); 
     }
 }
